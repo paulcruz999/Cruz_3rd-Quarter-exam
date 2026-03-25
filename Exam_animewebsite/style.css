@@ -1,0 +1,118 @@
+.navbar-text {
+    color: #D3494E;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-left: 12px;
+}
+.main-items{
+    background-color: rgba(44, 2, 255, 0.5);
+    width: 100%; height: 100vh; background-size: cover; background-position: center; background-attachment: fixed;
+}
+
+.navbar {
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 0 32px;
+    height: 64px;
+    background: rgba(66, 107, 210, 0.2); 
+    backdrop-filter: blur(8px);
+    box-shadow: 0 2px 12px rgba(52, 12, 83, 0.12);
+}
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+.navbar-profile {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #1e6b3a;
+    background: #222;
+    box-shadow: 0 1px 6px rgba(66, 107, 210, 0.18);
+}
+.navbar-right {
+    margin-left: auto;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.navbar-btn {
+    padding: 8px 22px;
+    border-radius: 18px;
+    border: none;
+    background: #fff;
+    color: #324d8d;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(10,24,60,0.10);
+    transition: background 0.2s, color 0.2s;
+}
+.navbar-btn:hover {
+    background: #e0e0e0;
+    color: #1a2a4f;
+
+}
+
+
+.navbar-btn:last-child {
+    background: #b3d8fd;
+    color: #1a2a4f;
+}
+.navbar-btn:last-child:hover {
+    background: #a0c8f0;
+    color: #1a2a4f;
+}
+.Navprofile {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #487be1;
+    background: #b33030;
+    box-shadow: 0 1px 6px rgb(187, 0, 255);
+}
+.card {
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+.btn-outline {
+    border: 2px solid #d21e1e9c;
+    color: #ff0000;
+    background-color: transparent;
+    transition: all 0.3s ease;
+}
+.btn-primary {
+    background: 0 var(--primary);
+    background-color: #0d0229;
+    color: #ff0404;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn {
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
